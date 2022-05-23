@@ -1,0 +1,44 @@
+/* Universal Style for entire website */
+* {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header Style */
+.header {
+  /* allow logo and header nav on the same line */
+  display: flex;
+  /* relevant style for how logo and navbar should separated */
+  justify-content: space-around;
+  /* center content in header horizontally */
+  align-items: center;
+  /* background color for header */
+  background-color: #1f2937;
+  /* font color for the header */
+  color: #f9faf8;
+  /* logo section font size */
+  font-size: 24px;
+  /*  space around the content */
+  padding: 10px;
+}
+
+.header-nav ul {
+  /* make the list on the same line */
+  display: flex;
+  /* space between each nav link */
+  gap: 50px;
+}
+
+.header-nav li {
+  /* remove the bullet points from the list */
+  list-style: none;
+}
+
+.header-nav li a {
+  /* font color for the header navbar */
+  color: #e5e7eb;
+  /* font size for the header navbar */
+  font-size: 18px;
+  /* remove the underline from the nav links */
+  text-decoration: none;
+}
