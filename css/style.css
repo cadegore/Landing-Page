@@ -42,3 +42,80 @@
   /* remove the underline from the nav links */
   text-decoration: none;
 }
+
+/* Cover Style */
+.cover {
+  /* cover background color */
+  background-color: #1f2937;
+  /* cover font color */
+  color: #f9faf8;
+  /* make text and image display on same line */
+  display: flex;
+  /* center the content (vertically) */
+  justify-content: center;
+  /* center the content (horizontally) */
+  align-items: center;
+  /* space on top of content */
+  padding-top: 150px;
+  /* space on bottom of content */
+  padding-bottom: 200px;
+  /* space between the content (text and image) */
+  gap: 100px;
+}
+
+.cover-content {
+  /* align the content (horizontally) */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* space between the content */
+  gap: 10px;
+  /* width of the content (fixed width for content) */
+  width: 460px;
+}
+
+.cover-content h2 {
+  /* font size of the title */
+  font-size: 48px;
+  /* make the title super bold */
+  font-weight: 900;
+}
+
+.cover-content p {
+  /* font-size for the paragraph */
+  font-size: 18px;
+  /* font color fot the paragraph */
+  color: #e5e7eb;
+}
+
+.cover-content a {
+  /* remove the underline of the link */
+  text-decoration: none;
+  /* font color for the link */
+  color: #e5e7eb;
+  /* background of the link */
+  background-color: #3882f6;
+  /* make the link a rounded corner */
+  border-radius: 8px;
+  /* add space around the link */
+  padding: 10px 30px;
+  /* font size for the link */
+  font-size: 23px;
+  /* make the link bold */
+  font-weight: 700;
+}
+
+.cover-image {
+  /* make it flex to simplify centering the content */
+  display: flex;
+  /* background-color of the image placeholder */
+  background-color: #6e747c;
+  /* width of the image placeholder */
+  width: 650px;
+  /* height of the image placeholder */
+  height: 300px;
+  /* center the text inside the image placeholder (vertically) */
+  align-items: center;
+  /* center the text inside the image placeholder (horizontally) */
+  justify-content: center;
+}
