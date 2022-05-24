@@ -288,3 +288,12 @@
   /* center the text vertically */
   text-align: center;
 }
+
+.my-note {
+  padding-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #f9faf8;
+}
