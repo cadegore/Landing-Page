@@ -123,3 +123,55 @@
   /* center the text inside the image placeholder (horizontally) */
   justify-content: center;
 }
+
+/* Information Style */
+
+.information {
+  /* space on top and bottom of the content */
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.information h2 {
+  /* font size of the title */
+  font-size: 36px;
+  /* font weight of the title */
+  font-weight: 900;
+  /* font color of the title */
+  color: #1f2937;
+  /* center the title */
+  text-align: center;
+  /* space at the bottom to make the title and content look better */
+  margin-bottom: 50px;
+}
+
+.information-content {
+  /* align text and boxes on one line */
+  display: flex;
+  /* center the content */
+  justify-content: center;
+  /* space in between each boxes */
+  gap: 50px;
+}
+
+.information-image-placeholder {
+  /* width of the boxes */
+  width: 170px;
+  /* height of the boxes */
+  height: 170px;
+  /* border of the boxes */
+  border: 5px solid #3882f6;
+  /* make the boxes' corners rounded */
+  border-radius: 8px;
+  /* space between boxes and descriptions */
+  margin-bottom: 10px;
+}
+
+.information-content p {
+  /* font size of the descriptions */
+  font-size: 18px;
+  /* make the description a fixed width same as the boxes width */
+  width: 170px;
+  /* center the descriptions in between each boxes */
+  text-align: center;
+}
