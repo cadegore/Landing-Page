@@ -218,3 +218,54 @@
   /* a little space between the block and text */
   padding-right: 30px;
 }
+
+/* Contact Style */
+
+.contact {
+  /* space around the content */
+  padding: 100px 200px;
+}
+
+.contact-info {
+  /* display button and message on the same line */
+  display: flex;
+  /* background of the content */
+  background-color: #3882f6;
+  /* make the corner a little rounded */
+  border-radius: 8px;
+  /* space between the message and the buttons */
+  justify-content: space-evenly;
+  /* the height of the content */
+  height: 200px;
+  /* center the message and buttons (horizontally) */
+  align-items: center;
+}
+
+.contact-content {
+  /* set the font size of the message title */
+  font-size: 30px;
+  /* set the color of the message and title */
+  color: #f9faf8;
+}
+
+.contact-content-msg {
+  /* a little space between title and message */
+  margin-top: 5px;
+  /* make the message a little thinner */
+  font-weight: 300;
+}
+
+.contact-link a {
+  /* set the font size of the link */
+  font-size: 24px;
+  /* remove the underline of the link */
+  text-decoration: none;
+  /* set the color of the link */
+  color: #f9faf8;
+  /* set the border of the link */
+  border: 5px solid #f9faf8;
+  /* space around between link and border */
+  padding: 10px 40px;
+  /* make the border rounded corner */
+  border-radius: 10px;
+}
