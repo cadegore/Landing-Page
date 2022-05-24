@@ -175,3 +175,46 @@
   /* center the descriptions in between each boxes */
   text-align: center;
 }
+
+/* Quote Style */
+
+.quote {
+  /* space on top and bottom of the content */
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* background color of the section */
+  background-color: #e5e7eb;
+}
+
+.quote-text p {
+  /* font size of quote */
+  font-size: 36px;
+  /* make the quote italic */
+  font-style: italic;
+  /* make the quote a little thinner */
+  font-weight: 300;
+  /* set a fixed width for the quote */
+  width: 770px;
+  /* center the quote block but not the quote */
+  margin: 0 auto;
+}
+
+.quote-author {
+  /* set the font size of the quote author */
+  font-size: 24px;
+  /* make the quote author text bold */
+  font-weight: bold;
+  /* set the quote author width the same as the quote block */
+  width: 770px;
+  /* center the quote author block but not the quote author text */
+  margin: 0 auto;
+  /* a little space between the quote and the author name */
+  margin-top: 5px;
+}
+
+.quote-author p {
+  /* align the author name to the right */
+  text-align: right;
+  /* a little space between the block and text */
+  padding-right: 30px;
+}
