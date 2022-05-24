@@ -269,3 +269,22 @@
   /* make the border rounded corner */
   border-radius: 10px;
 }
+
+/* Footer Style */
+
+.footer {
+  /* space around the content */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* background color of the footer */
+  background-color: #1f2937;
+}
+
+.footer p {
+  /* font color of the text */
+  color: #f9faf8;
+  /* font size of the text */
+  font-size: 24px;
+  /* center the text vertically */
+  text-align: center;
+}
